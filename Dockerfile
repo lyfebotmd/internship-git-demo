@@ -14,7 +14,7 @@ RUN apt-get update && \
 COPY index.html /var/www/html/index.html
 
 # Expose port 80
-EXPOSE 80
+EXPOSE 90
 
 # Start Nginx when container starts
 CMD ["nginx", "-g", "daemon off;"]
